@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="#98CF5C"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+
+            android:layout_height="35dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logout" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+        <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:id="@+id/profile_image"-->
+        <!--            -->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            android:src="@drawable/people"-->
+        <!--            app:civ_border_width="2dp"-->
+        <!--            app:civ_border_color="#FF000000"/>-->
+
+        <ImageView
+            android:id="@+id/profile_image"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/people" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jane"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="270dp"
+        android:background="#87CEFA" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Прогресс"
+            android:textSize="36dp"
+            android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЦЕЛЬ"
+            android:textSize="36dp"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:background="#87CEFA" >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textSize="36dp"
+            android:layout_marginLeft="70dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/star"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="450"
+            android:textSize="36dp"
+            android:layout_marginLeft="70dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/star"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="360dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Достижения"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:layout_marginTop="420dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cups"
+/>
+    <ImageView
+        android:layout_marginTop="420dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cupp"
+        android:layout_marginLeft="150dp"/>
+
+
+    <ImageView
+        android:layout_marginTop="420dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gcup"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:layout_marginTop="520dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Без ошибок"
+        android:textSize="26dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="520dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="За скорость"
+        android:textSize="24dp"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="520dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Ты достиг цели"
+        android:textSize="20dp"
+        android:layout_marginLeft="300dp"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

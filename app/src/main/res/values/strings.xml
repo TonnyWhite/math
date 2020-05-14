@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">mentalMath</string>
+    <string name="title_home">Тренировка</string>
+    <string name="title_dashboard">Игры</string>
+    <string name="title_notifications">Профиль</string>
+    <string name="complicated">±Сложениe/вычитание</string>
+    <string name="multiplication">хУмножения</string>
+    <string name="division">÷Деление</string>
+    <string name="start">СТАРТ</string>
+
+    <string name="welcomeFriend">Здравствуй "\n" дорогой друг</string>
+    <string name="login">"  "Логин</string>
+    <string name="password">"  "Пароль</string>
+    <string name="new_account">Я новичок</string>
+    <string name="signIn">Вход</string>
+    <string name="incorrectPassword">Пожалуйста введите правильный пароль</string>
+    <string name="IncorrectLogin">Please enter correct email</string>
+    <string name="fieldsAreEmpty">Fields are empty</string>
+    <string name="signInUnsuccesful">Не удалась войти</string>
+    <string name="logOut">Выход</string>
+
+
+    <string name="shulte_table">Таблицы шульте</string>
+    <string name="zakon5">Формулы на 5</string>
+    <string name="formul_for_10">Формулы на 10</string>
+    <string name="input_answer">Oтвет</string>
+
+
+    <string name="main_records">Лучшие результаты</string>
+    <string name="main_more_apps"><u>Другие приложения</u></string>
+    <string name="main_rate_app"><u>Оценить приложение</u></string>
+
+    <string name="dig_seq_level">Выберите уровень сложности</string>
+    <string name="dig_seq_var_font_size">Переменный размер шрифта</string>
+    <string name="dig_seq_var_font_color">Переменный цвет шрифта</string>
+    <string name="dig_seq_reverse_order">В обратном порядке</string>
+    <string name="dig_seq_size_3">легкий (3x3)</string>
+    <string name="dig_seq_size_4">средний (4x4)</string>
+    <string name="dig_seq_size_5">сложный (5x5)</string>
+    <string name="dig_seq_size_6">очень сложный (6x6)</string>
+    <string name="dig_square_title">Нажимайте числа по порядку</string>
+    <string name="dig_square_title_reverse">Нажимайте числа в обратном порядке</string>
+    <string name="dig_square_new_record">Поздравляем! Вы поставили новый рекорд</string>
+    <string name="dig_square_without_record">Очень хорошо. Вы уложились в</string>
+    <string name="dig_square_seconds">секунд</string>
+    <string name="dig_square_start_again">Начать заново</string>
+    <string name="dig_square_finish">Завершить</string>
+
+    <string name="records_clear">Сбросить</string>
+    <string name="records_sec">сек</string>
+    <string name="records_var_font_size">Переменный размер</string>
+    <string name="records_fixed_font_size">Постоянный размер</string>
+    <string name="records_var_font_color">Переменный цвет</string>
+    <string name="records_fixed_font_color">Постоянный цвет</string>
+    <string name="records_reverse_order">Обратный порядок</string>
+    <string name="records_direct_order">Прямой порядок</string>
+    <string name="dig_seq_hide_completed">Скрывать пройдённые квадраты</string>
+    <string name="main_digital_sequence">Выбрать тест</string>
+
+
+    <string-array name="law_for_5">
+        <item>Любой</item>
+        <item>-4(-5+1)</item>
+        <item>-3(-5+2)</item>
+        <item>-2(-5+3)</item>
+        <item>-1(-5+4)</item>
+        <item>+1(-4+5)</item>
+        <item>+2(-3+5)</item>
+        <item>+3(-2+5)</item>
+        <item>+4(-1+5)</item>
+        <item>Без формулы</item>
+    </string-array>
+
+    <string-array name="formul_for_10">
+        <item>Любой</item>
+        <item>+1(-9+10)</item>
+        <item>+2(-8+10)</item>
+        <item>+3(-7+10)</item>
+        <item>+4(-6+10)</item>
+        <item>+5(-5+10)</item>
+        <item>+6(-4+40)</item>
+        <item>+7(-3+10)</item>
+        <item>+8(-2+10)</item>
+        <item>+9(-1+10)</item>
+        <item>-9(-10+1)</item>
+        <item>-8(-10+2)</item>
+        <item>-7(-10+3)</item>
+        <item>-6(-10+4)</item>
+        <item>-5(-10+5)</item>
+        <item>-4(-10+6)</item>
+        <item>-3(-10+7)</item>
+        <item>-2(-10+8)</item>
+        <item>-1(-10+9)</item>
+        <item>Без формулы</item>
+    </string-array>
+</resources>

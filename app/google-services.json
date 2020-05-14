@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "571380650381",
+    "firebase_url": "https://mentalarithmetic-82427.firebaseio.com",
+    "project_id": "mentalarithmetic-82427",
+    "storage_bucket": "mentalarithmetic-82427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571380650381:android:7ad634971f514f08",
+        "android_client_info": {
+          "package_name": "com.example.mentalmath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571380650381-mhreu2r0lev0vgse479rohekpcb1crvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentalmath",
+            "certificate_hash": "75f2ce709e4aa6bbb8ea44e8e5779390c9abd783"
+          }
+        },
+        {
+          "client_id": "571380650381-o0ckl51kne34t9o3j7llfs1mvu84eial.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2NAMGiprspUlaM8X_Gyk5trjMEsS4XNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571380650381-o0ckl51kne34t9o3j7llfs1mvu84eial.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/kolva"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="Количество примеров"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="2"/>
+
+    <Button
+        android:id="@+id/zakonFor5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Формулы на 5"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/zakonFor10"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Формулы на 10" />
+
+    <EditText
+        android:id="@+id/kolvaChisel"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Количество чисел в примере:"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+
+    <EditText
+        android:id="@+id/razryadnostChisel"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Разрядность чисел:"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+        android:inputType="number"
+        android:digits="12345"
+        android:maxLength="1"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/countDown"
+        tools:visibility="gone"
+        android:layout_marginTop="360dp"
+        android:textSize="100dp"
+        android:textColor="#009900"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="460dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_corner"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/questionView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:textSize="120dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        tools:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/answerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textSize="120dp"
+        android:hint="@string/input_answer"
+        tools:visibility="gone"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/okButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="OK"
+        android:textSize="30dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="460dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        tools:visibility="gone"/>
+
+
+</RelativeLayout>
